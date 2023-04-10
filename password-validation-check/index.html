@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Validation Check</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel=" stylesheet" href="https://doniws.github.io/FontAwesome6Pro/pro/css/all.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="pass-field">
+            <input type="password" id="password" placeholder="Create password" required>
+            <i class="fa-solid fa-eye"></i>
+        </div>
+        <div class=" content">
+            <p>Password must contains</p>
+            <ul class="requirement-list">
+                <li class="rule">
+                    <i class="fa-solid fa-circle"></i>
+                    <span> At least 8 characters length</span>
+                </li>
+                <li class="rule">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 number (0...9)</span>
+                </li>
+                <li class="rule">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 lowercase letter (a...z)</span>
+                </li>
+                <li class="rule">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 special symbol (!...$)</span>
+                </li>
+                <li class="rule">
+                    <i class="fa-solid fa-circle"></i>
+                    <span>At least 1 uppercase letter (A...Z)</span>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
